@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "miocard"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+pandas = "^2.0.3"
+ipykernel = "^6.25.1"
+matplotlib = "^3.7.2"
+seaborn = "^0.12.2"
+scikit-learn = "^1.3.0"
+catboost = "^1.2"
+hyperopt = "^0.2.7"
+xgboost = "^1.7.6"
+lightgbm = "^4.0.0"
+streamlit = "^1.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
